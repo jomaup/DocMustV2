@@ -6,10 +6,9 @@ servers:
     description: Sandbox server
 info:
   description: |
-    This is a sample server Petstore server.
-    You can find out more about Swagger at
-    [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).
-    For this sample, you can use the api key `special-key` to test the authorization filters.
+    
+    
+    Cette "API" de Must est une documentation de toutes les requêtes réalisable par les différents types d'utilisateurs.
 
     # Introduction
     This API is documented in **OpenAPI format** and is based on
@@ -18,51 +17,23 @@ info:
     tool and [ReDoc](https://github.com/Redocly/redoc) documentation. In addition to standard
     OpenAPI syntax we use a few [vendor extensions](https://github.com/Redocly/redoc/blob/master/docs/redoc-vendor-extensions.md).
 
-    # OpenAPI Specification
-    This API is documented in **OpenAPI format** and is based on
-    [Petstore sample](http://petstore.swagger.io/) provided by [swagger.io](http://swagger.io) team.
-    It was **extended** to illustrate features of [generator-openapi-repo](https://github.com/Rebilly/generator-openapi-repo)
-    tool and [ReDoc](https://github.com/Redocly/redoc) documentation. In addition to standard
-    OpenAPI syntax we use a few [vendor extensions](https://github.com/Redocly/redoc/blob/master/docs/redoc-vendor-extensions.md).
-
-    # Cross-Origin Resource Sharing
-    This API features Cross-Origin Resource Sharing (CORS) implemented in compliance with  [W3C spec](https://www.w3.org/TR/cors/).
-    And that allows cross-domain communication from the browser.
-    All responses have a wildcard same-origin which makes them completely public and accessible to everyone, including any code on any site.
-
-    # Authentication
-
-    Petstore offers two forms of authentication:
-      - API Key
-      - OAuth2
-    OAuth2 - an open protocol to allow secure authorization in a simple
-    and standard method from web, mobile and desktop applications.
-
-    <SecurityDefinitions />
-
+    
   version: 1.0.0
-  title: Swagger Petstore
-  termsOfService: 'http://swagger.io/terms/'
-  contact:
-    name: API Support
-    email: apiteam@swagger.io
-    url: https://github.com/Redocly/redoc
+  title: Must developers documentation
+ 
   x-logo:
-    url: 'https://redocly.github.io/redoc/petstore-logo.png'
-    altText: Petstore logo
-  license:
-    name: Apache 2.0
-    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+    url: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATcAAACiCAMAAAATIHpEAAAAn1BMVEX///8DBF4AAF0AAFQAAFYAAFEAAFkAAFsAAFcAAE8AAFL8/P7b2+aUlLGXl7NaW4ump7+Ghqb19fmxscceHmhPT4Pu7vTo6O8AAExUVIbV1eEAAGDOztzHx9eMjKzs7PJzc5q9vc85OXbBwdJ7e6AzM3NHR35qa5RhYY62tspCQntxcZmjo7wbG2YTFGUvL3E8PHcODmQlJW0AAEIAAEVcBUBdAAAOQklEQVR4nO2dbUPyPA+God3abbyD8qYoICoogno///+3PQzYlnZJV2TAJe78qDDWY22aJmlXKhUqVKhQoUKFChUqVKhQoUKFChUqVKhQoT+rSm/UfBgPpuvvj4+b7/XbfFZfDLuXvqt/W9XObCrdwHGElGwrKYXncJevBrVR+9K390+qu3j9crmQrIxIMukEfPpwf+m7/MfUbt4GXKDIEm3YuXezAl2s0dzlUpqhReyEW649XvqG/wVVml+usIO2R+f0G3++07VrgmcMT0TC/xxd+s4vqrpwDqcWSrqff7fPLco/6GsJuUbv0g24iKpv7s+phRK8duk2XEA195DJABXjN8NLN+PM6q2PGKKJZL916ZacVc3jO9te/PkPeXOvfh6dbSfJJ5duzpnUXTu5UduI+Q+XbtFZVLVcUtnLnV+6TWfQ6EjvA5PzdulWnVyLHE1bIm9duXTDTqvTYNv4wN9XHdVc9E+DLQR3xT1udKLetgX3fOnWnUzVE0wJibzbS7fvROpmBcKPFB9fuoWn0Xfefpsud3npJp5Cr7muEjDJ/hXGMpv+qbFtllzs6ryR084JkcTVzQ3rUxu3na7NxD3ws2Ars+Cqkg7nGaWhxMul25qnPs8zSkO5nUs3Nj913LNh28ypV7NQrbCsUcqE4zgHLyeY9BzH0yuYnKtJ1dQyPF7hrsb1ZW38HXgHoGPcuX1YLlu3IlCsAAuupMqwbU75MX8eZUF7LS5ssTlsuXdyK5PnAP6CN7tYU3PVg7G7OR8wd9x9sXNYmJo47SgBqj7V4doPt5+DWceiPy7mnw3rCaY+mL403muLqu0XNle/fa1n5MwrxtIZ91X7+NgGnPS0lWgVGkeqww25I6UUvD/IauGLL6Rw11artvaKy/CyDne9+cLiK5VPV4Sf91fGJ7M0gUByeI3soSq/Ut7tEHiIjKN3340foOibU4evu1u2i+i9JPfLBOfvmb2uEY0/5r4ZMK8M3c1F7r+Nl/hCbCtkpEFr4NSxGwGfkL5p0u319x/rW5Sf1ALl3phwb83kqiDAIW5Ip+nJ4LtxdEDVM6ZfJrG1FMTNVth1Fee7/0S3bBGNEJy/ovt06F/476bR2oTjzyFTv4ZhR0QvemYvWfp4lG0MfsjFyjGV0IL8tmiZk1ko1kZdU48ZnspS6RY+0Tm7tBNCRstujAM1IBqzAM9R6LNNqLHyBH16DDajlmVzu8V7BTPYgZHSLTzig016VvCpGt2BaTVLLtyHwNAwgdiNYR9e12mSLbPnVieHRjAgv3Sj9Hui1OCNZMDJOc00ozKPsh1V2IYAK1KqQXAePaVac6v26SfsTCmTX4U7NdgN+plHcpgKuqbDxK1PFpIr3ARqb5+e/fjS1AAp2XOrlJPGidTy2iMTuo9zHo9CgluHGqZMqL5ECzwdAzeutrYHBpvCjYyKvEfXzoHb3EsgzTuzb1/18B16qJaeIi4Et1cKgdZvOv9ZcZOf6uW/QMMUbmWXSG3Fs9nx3JbJD8qP8PZ7tS9leAX0TzxG3yW43RHDVO83Lrfhxjy1KPW9DxwslRvV5HieOppbNQkmsNibaN5BL8Mn3ZG2mVuVmG/kVP3cWlpx81Vrv/Adkpskpt3cuFXAtAiyQZUxcISZpCaxhBvqRxLmTe83M8eKm6MuL3oOo7kxiRu43LiBNLrXgP9YgKCWRy0HEm7lW6hBbUt6hhPQ+s3EL9twk2v1t59lmeZWdnFHPC9unWSVye7UR1QFRo5Y2yTcNg9YkcPDb+BZU21Z+riZhiy4MVddls542cSNL3Am+XDr+cC46SsPYPl0gxSpTTrMzN84GmjoTWqOzVSWbbj5arTqKXzgBm4El5y4gRohN734HyWdEV0pm7iFN9YLkL8zrvabVtiSbG6OuuRsb1MRBm5SMTqxOrlwGyfGTWBeWpJmJ+YnAzf2WbrHuPnqANr2m2xuUgsNvW0/Y+CGx5Ly4baAxg2dMhMD5aMFBBUDtzU6nTpj5QL7YsIsbkwz8/tooYmbh06oeXDrJeaHCmolQQ88hmfgJl6xCKTU/Lxdv8nkptXL3Psyi1uZoxu38uD2nBg3KqhVeok+o1vznQzcNiupVgqAXvcSGYIMbqqHVGpHyxATN9wRyYHbLBlFdDXKJDZRPjaQSW7Mn4FFdCxtUryPIvlmbrqHNIg+YOIWoDPZ8dyegHEjg1qlUhwIDrDFVsKNuVD+Vwioobtv+qQY5wSM3HQPqY4aj9Q4RfcJHs0NBrDpoBaIaKDwK8n6tAe1CxK9aNx045ZEmY3cNA9pmPicRm5odvJobsC4cVNSLP4hNBRYMa7r31S3lwXopJjFTUvfVL6Sqxq5oYHwY7m1gHEz7qYbRrejx752jTBye1a5uWpL7kGq2MBNDyqAaOH5uY368fX1yKsmsHJH/nsINy040IaxOQM3LX2j1KWfm1sXJGnp4NpOkZPHJPLPA8Yp+yImRTO3VIQTXvPc9g3UNOA5c6AIMfOQf5q53YJ5QfZV46am0EhuQrMO6qYbIzc0IHIUtwdgkDO30Xk/72/QD9E8fi2FRnFjnmpE3tUVyHn9kGiVEt5XkHWMRGLf7pD/mrmBDLlQPX6YQjNx04zIQtt0c1a/F1ag9PHoHlB8OwzrmWZuyTqLlVXjBidFAzeeiozbc8t9nQVqGrTgBKa47AINaJm5xet65qoe/1JfnuHcsAinLTfJUTfh59ygt7kmvxsrThGgP2TmFjPXPP5qoMeBUW56hHOWCkuZ4kgCbc6PuQ2B58YtNuV8RE1E5ycztyhuqcVEKzeptAPKDY1wWnP7QJuz+CE36G3abC2Jlwt44DLhhoVX93FyvWAL2YmKcUMj49bcBB4nf4pGG1rqtVMd4Qa8TYf+Jmhj9Hl0Oi2Vor0DeEHGrqnadlps9wzCTWod5g2JnpvyMni9UbJsJDJNJTSUAWsa8MoEVYl7ThRpx2EmF+uOW0MeqC3oYXvc0tz0yPgDlqs4PA/4GA12ong6VDwkY24gBKPfF67EJSAKVeKiWfQ+Z146bJA2big3PQjQR771g7xz8qDxdVgJmqaIG/Q2fbreMNEkCUvi6aFkukXDTBsrrIcz3tPGDeNmCgLYcCPMysZzjJ0caqAmNVQRtwYs2CK+BQVOruDERuJ4XmeYv9QLmBbO0D1+gptcGYIANtwkVXyWFM66+MFx4Dp7bsC4oUGhlJJFNFWmAoq/UQP4pe1QSHn8ODfdT6bqaGluDrVhvBs/OCL1CQK6O25g0zGjyr8VfYKoCblvPf4ZiVnA1ynxaTM3PTJObZemudHWO6m6RrNR0EnacoPGzWb7fncNwhK4Exkq6ffY85tkefwoN675ySuq/JjkZhhPoA7eSW+gGMNpe8sNGDfCJ1RbDI8FpMqRSoo7Km8ydnVNyDNEFG4Dh46MW3ITY/ouwCrX+1afq7YdMeQGjdsdYawS9eZw/4wxtgm3PTHjhqYuvTNQ5aaOMcOJLZDb8D8/0X+GDN0QXE/6s2Q6a9cCdfrZcKuaCrZSV371lSC2cfkPd4Ezf2xIVqTCGQQ3VT3D4WdK8UUbynTHY+gKee6gOex1H6udOdefq2hVQeOQgi3w471Ja+VqCSXzRlfFtfDcxqKHM2hRxs3MzXQclcXGM0RqXEFKx+Xhu1iQ/f3wsH7yLJxKfc2YF3Bt/axnPdOaw+fHBA/E3ddr6ksj1OOP5FI9ZIz6yXsZghomVVO7UbL39ZO7ybofPHwZTurzPHMTZioutLmM0CpBsk5/c4lfIfzkvUjvNkP3h58DQ5719Ym65IJZeHqPyJG8TMtfveAefySi51B+8l6S7KYZMp+Gi2yODKjtXPfog+XPVodK9BBwQpmE0XAGvFV8QUL5yZF+ZuBK4enL9HOULDVu6T1DS8SOsL7tkRKPN6mvK3kckEIjhC7TGibjtv0RvDrQQu0Xossx/t3VHU3DoaPp2kgWrA44v2+uuwsMeC/4tmBVukEsxecDmGSTIiHUkYgRYA4Pu3BLAec80w7vSEMsubSJNCWa3KmzFHTZiW3B6h1rEbdSZWBzJIaY/viMwUqNBcpsxSR3WrvLgb2qzDfGjsBytMw8//swaqHqG9aJdw3mBXJZqoEbw8d6vyKXVyq48hHvNlo0PDd8q972AJCAvzTjhzD89J3tBhb/2/yigt6ds30jn/C4+9360QtIKp2Xjfu3fbWf6IPQgcUo3cpj9WgaGs6tXQXmHvM+rcr9cjb4fJ7ejuvaGwiHtcHzdJD9br1264ax1XPjYXHEmX3tycNgvVkBD+DPTYjwWRqBw99ay2b9/cO1GNmxpPs1rzX3yqxAOIEqOZ2dpl/Gxr7tyYVnk/3gSLPwILRQ/H8ZZWm/Sr1Ugv5U8mySm79H9Qy3Ny/RO2V/qbCs8QnkX9tLeh5/+CLAw2RRX/XbZA5s5COrEoTfJjvn9xjpO6KvRHigKkddnXHbqV0+7enH7rW+njIjCHmk+Pul23cyDU/o/ppOI/r1+kFc3xbbVZ3nntLTicBdObawVPoU4PjVvecjpaqX/6wa/IUXUvZWOftxpkM4r0kVyzPIrbFd0ZsqzGrl+HpFYa6Bui49OTmNVeYOrizgZlaXyvoeJnlt733KVtP+FRV0Z3u7ygCIWd15Zu2DmZpzYGL8ajT6PsIJFu7sT1k2RR1mfvcMTc1v/MEhCtS8Cw4erczzG9bvcrlaLZ79g9LMkruzv93XIlVnXmCJjjn+unk1L2Q7XpO5CLIW/CysDaoVA1RVZdRau9yRDKPHpHBcOVgW4xNV9+nhdsU39DwRnZ8shMMDV67fm8NieBrVHU6WrXHjbbper6e381mtOer9XU+tUKFChQoVKlSoUKFChQoVKlSoUKFChQr9Xv0fNfbd60LgBbUAAAAASUVORK5CYII='
+    altText: Logo de Must
 externalDocs:
-  description: Find out how to create Github repo for your OpenAPI spec.
-  url: 'https://github.com/Rebilly/generator-openapi-repo'
+  description: Se diriger vers le site de Must
+  url: 'https://mustexpo.com/fr/'
 tags:
-  - name: pet
+  - name: type de fonctionnalités 1
     description: Everything about your Pets
-  - name: store
+  - name: fonctionnalité 2
     description: Access to Petstore orders
-  - name: user
-    description: Operations about user
+  - name: Too easy for me men
+    description: OMG so easysfdqsfdqsf
   - name: pet_model
     x-displayName: The Pet Model
     description: |
@@ -72,17 +43,20 @@ tags:
     description: |
       <SchemaDefinition schemaRef="#/components/schemas/Order" exampleRef="#/components/examples/Order" showReadOnly={true} showWriteOnly={true} />
 x-tagGroups:
-  - name: General
+  - name: Visiteur en démo
     tags:
-      - pet
+      - Fonctionnalité 1
       - store
-  - name: User Management
+  - name: Visiteur authentifié
     tags:
-      - user
-  - name: Models
+      - Too easy for me men
+  - name: Speaker
     tags:
       - pet_model
       - store_model
+  - name: Admin
+    tags:
+      - Gérer les utilisateurs
 paths:
   /pet:
     parameters:
