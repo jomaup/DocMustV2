@@ -29,27 +29,27 @@ externalDocs:
   url: 'https://mustexpo.com/fr/'
 tags:
   - name: type de fonctionnalités 1
-    description: Everything about your Pets
-  - name: fonctionnalité 2
-    description: Access to Petstore orders
-  - name: Too easy for me men
-    description: OMG so easysfdqsfdqsf
+    description: Toutes les fonctionnalité correspondante a ce type de fonctionnalités
+  - name: type de fonctionnalités 2
+    description: Toutes les fonctionnalité correspondante a ce type de fonctionnalités
+  - name: Contact
+    description: Gestion de ses contact
   - name: pet_model
-    x-displayName: The Pet Model
+    x-displayName: Gestion de ses visiteurs
     description: |
       <SchemaDefinition schemaRef="#/components/schemas/Pet" />
   - name: store_model
-    x-displayName: The Order Model
+    x-displayName: Gestion de sa salle
     description: |
       <SchemaDefinition schemaRef="#/components/schemas/Order" exampleRef="#/components/examples/Order" showReadOnly={true} showWriteOnly={true} />
 x-tagGroups:
   - name: Visiteur en démo
     tags:
-      - Fonctionnalité 1
-      - store
+      -  type de fonctionnalités 1
+      -  type de fonctionnalités 2
   - name: Visiteur authentifié
     tags:
-      - Too easy for me men
+      - Contact
   - name: Speaker
     tags:
       - pet_model
@@ -85,9 +85,9 @@ paths:
         '405':
           description: Invalid input
       security:
-        - petstore_auth:
-            - 'write:pets'
-            - 'read:pets'
+        - Must_auth:
+            - 'write:must'
+            - 'read:must'
       x-codeSamples:
         - lang: 'C#'
           source: |
@@ -133,9 +133,9 @@ paths:
         '405':
           description: Validation exception
       security:
-        - petstore_auth:
-            - 'write:pets'
-            - 'read:pets'
+        - Must_auth:
+            - 'write:must'
+            - 'read:must'
       x-codeSamples:
         - lang: PHP
           source: |
@@ -201,9 +201,9 @@ paths:
         '405':
           description: Invalid input
       security:
-        - petstore_auth:
-            - 'write:pets'
-            - 'read:pets'
+        - Must_auth:
+            - 'write:must'
+            - 'read:must'
       requestBody:
         content:
           application/x-www-form-urlencoded:
@@ -240,13 +240,13 @@ paths:
         '400':
           description: Invalid pet value
       security:
-        - petstore_auth:
+        - Must_auth:
             - 'write:pets'
             - 'read:pets'
   '/pet/{petId}/uploadImage':
     post:
       tags:
-        - pet
+        - type de fonctionnalités 2
       summary: uploads an image
       description: ''
       operationId: uploadFile
@@ -266,7 +266,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/ApiResponse'
       security:
-        - petstore_auth:
+        - Must_auth:
             - 'write:pets'
             - 'read:pets'
       requestBody:
@@ -316,7 +316,7 @@ paths:
         '400':
           description: Invalid status value
       security:
-        - petstore_auth:
+        - Must_auth:
             - 'write:pets'
             - 'read:pets'
   /pet/findByTags:
@@ -358,7 +358,7 @@ paths:
         '400':
           description: Invalid tag value
       security:
-        - petstore_auth:
+        - Must_auth:
             - 'write:pets'
             - 'read:pets'
   /store/inventory:
@@ -398,7 +398,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/Order'
         '400':
-          description: Invalid Order
+          description: Commande invalide
           content:
             application/json:
               example:
@@ -411,11 +411,11 @@ paths:
               $ref: '#/components/schemas/Order'
         description: order placed for purchasing the pet
         required: true
-  '/store/order/{orderId}':
+  '/'  :
     get:
       tags:
-        - store
-      summary: Find purchase order by ID
+        - type de fonctionnalités 1
+      summary: S'identifier en tant que visiteur
       description: >-
         For valid response try integer IDs with value <= 5 or > 10. Other values
         will generated exceptions
@@ -444,10 +444,10 @@ paths:
           description: Invalid ID supplied
         '404':
           description: Order not found
-    delete:
+    post:
       tags:
-        - store
-      summary: Delete purchase order by ID
+        - type de fonctionnalités 1
+      summary: Rentrer dans l'exposition
       description: >-
         For valid response try integer IDs with value < 1000. Anything above
         1000 or nonintegers will generate API errors
@@ -1138,11 +1138,10 @@ components:
       description: List of user object
       required: true
   securitySchemes:
-    petstore_auth:
+    Must_auth:
       description: |
-        Get access to data while protecting your account credentials.
-        OAuth2 is also a safer and more secure way to give you access.
-      type: oauth2
+        La sécurité du site de Must à été réalisé avec Firebase un service d'hébergement en NoSQL et en temps réel de l'authentification
+      type: Firebase
       flows:
         implicit:
           authorizationUrl: 'http://petstore.swagger.io/api/oauth/dialog'
