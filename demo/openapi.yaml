@@ -19,7 +19,7 @@ info:
 
     
   version: 1.0.0
-  title: Must developers documentation
+  title: Must develop ers documentation
  
   x-logo:
     url: 'data:image/png;base64,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'
@@ -43,6 +43,7 @@ tags:
     description: |
       <SchemaDefinition schemaRef="#/components/schemas/Order" exampleRef="#/components/examples/Order" showReadOnly={true} showWriteOnly={true} />
 x-tagGroups:
+  
   - name: Visiteur en démo
     tags:
       -  type de fonctionnalités 1
@@ -50,6 +51,7 @@ x-tagGroups:
   - name: Visiteur authentifié
     tags:
       - Contact
+      - exhibition meeting
   - name: Speaker
     tags:
       - pet_model
@@ -58,359 +60,117 @@ x-tagGroups:
     tags:
       - Gérer les utilisateurs
 paths:
-  /pet:
+  /exhibition/:exhibitionId/meeting:
     parameters:
-      - name: Accept-Language
+      - name: x-auth-token
+        required: true
         in: header
-        description: "The language you prefer for messages. Supported values are en-AU, en-CA, en-GB, en-US"
-        example: en-US
-        required: false
         schema:
           type: string
-          default: en-AU
-      - name: cookieParam
-        in: cookie
-        description: Some cookie
+          example: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOjEsImlhdCI6MTU5MDQ3NTcxNH0.tPMawr0NrxgM7lzBdjZous4tzkei7PFI4HIbfuZZtvs
+      - name: :exhibitionId
         required: true
+        in: path
         schema:
           type: integer
-          format: int64
-    post:
-      tags:
-        - pet
-      summary: Add a new pet to the store
-      description: Add new pet to the store inventory.
-      operationId: addPet
-      responses:
-        '405':
-          description: Invalid input
-      security:
-        - Must_auth:
-            - 'write:must'
-            - 'read:must'
-      x-codeSamples:
-        - lang: 'C#'
-          source: |
-            PetStore.v1.Pet pet = new PetStore.v1.Pet();
-            pet.setApiKey("your api key");
-            pet.petType = PetStore.v1.Pet.TYPE_DOG;
-            pet.name = "Rex";
-            // set other fields
-            PetStoreResponse response = pet.create();
-            if (response.statusCode == HttpStatusCode.Created)
-            {
-              // Successfully created
-            }
-            else
-            {
-              // Something wrong -- check response for errors
-              Console.WriteLine(response.getRawResponse());
-            }
-        - lang: PHP
-          source: |
-            $form = new \PetStore\Entities\Pet();
-            $form->setPetType("Dog");
-            $form->setName("Rex");
-            // set other fields
-            try {
-                $pet = $client->pets()->create($form);
-            } catch (UnprocessableEntityException $e) {
-                var_dump($e->getErrors());
-            }
-      requestBody:
-        $ref: '#/components/requestBodies/Pet'
-    put:
-      tags:
-        - pet
-      summary: Update an existing pet
-      description: ''
-      operationId: updatePet
-      responses:
-        '400':
-          description: Invalid ID supplied
-        '404':
-          description: Pet not found
-        '405':
-          description: Validation exception
-      security:
-        - Must_auth:
-            - 'write:must'
-            - 'read:must'
-      x-codeSamples:
-        - lang: PHP
-          source: |
-            $form = new \PetStore\Entities\Pet();
-            $form->setPetId(1);
-            $form->setPetType("Dog");
-            $form->setName("Rex");
-            // set other fields
-            try {
-                $pet = $client->pets()->update($form);
-            } catch (UnprocessableEntityException $e) {
-                var_dump($e->getErrors());
-            }
-      requestBody:
-        $ref: '#/components/requestBodies/Pet'
-  '/pet/{petId}':
     get:
-      tags:
-        - pet
-      summary: Find pet by ID
-      description: Returns a single pet
-      operationId: getPetById
-      parameters:
-        - name: petId
-          in: path
-          description: ID of pet to return
-          required: true
-          deprecated: true
-          schema:
-            type: integer
-            format: int64
       responses:
         '200':
-          description: successful operation
+          description: List of meeting rooms
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Pet'
-            application/xml:
-              schema:
-                $ref: '#/components/schemas/Pet'
-        '400':
-          description: Invalid ID supplied
-        '404':
-          description: Pet not found
-      security:
-        - api_key: []
-    post:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    uid:
+                      type: string
+                      format: uuid
+                    exhibitionId:
+                      type: integer
+                    name:
+                      type: string
+                    startDate:
+                      type: string
+                      format: date
+                    endDate:
+                      type: string
+                      format: date
+                    isPrivate:
+                      type: boolean
       tags:
-        - pet
-      summary: Updates a pet in the store with form data
-      description: ''
-      operationId: updatePetWithForm
-      parameters:
-        - name: petId
-          in: path
-          description: ID of pet that needs to be updated
-          required: true
-          schema:
-            type: integer
-            format: int64
-      responses:
-        '405':
-          description: Invalid input
+        - exhibition meeting
       security:
         - Must_auth:
             - 'write:must'
             - 'read:must'
+    post:
       requestBody:
+        description: List of meeting rooms
         content:
-          application/x-www-form-urlencoded:
+          application/json:
             schema:
               type: object
               properties:
+                uid:
+                  type: string
+                  format: uuid
                 name:
-                  description: Updated name of the pet
                   type: string
-                status:
-                  description: Updated status of the pet
+                startDate:
                   type: string
-    delete:
-      tags:
-        - pet
-      summary: Deletes a pet
-      description: ''
-      operationId: deletePet
-      parameters:
-        - name: api_key
-          in: header
-          required: false
-          schema:
-            type: string
-          example: "Bearer <TOKEN>"
-        - name: petId
-          in: path
-          description: Pet id to delete
-          required: true
-          schema:
-            type: integer
-            format: int64
-      responses:
-        '400':
-          description: Invalid pet value
-      security:
-        - Must_auth:
-            - 'write:pets'
-            - 'read:pets'
-  '/pet/{petId}/uploadImage':
-    post:
-      tags:
-        - type de fonctionnalités 2
-      summary: uploads an image
-      description: ''
-      operationId: uploadFile
-      parameters:
-        - name: petId
-          in: path
-          description: ID of pet to update
-          required: true
-          schema:
-            type: integer
-            format: int64
+                  format: date
+                endDate:
+                  type: string
+                  format: date
+                isPrivate:
+                  type: boolean
       responses:
         '200':
-          description: successful operation
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ApiResponse'
+          description: Success
+      tags:
+        - exhibition meeting
       security:
         - Must_auth:
-            - 'write:pets'
-            - 'read:pets'
-      requestBody:
-        content:
-          application/octet-stream:
-            schema:
-              type: string
-              format: binary
-  /pet/findByStatus:
+            - 'write:must'
+            - 'read:must'
+  /exhibition/:exhibitionId/meeting/:meetingUid/join:
+    parameters:
+      - name: x-auth-token
+        required: true
+        in: header
+        schema:
+          type: string
+          example: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOjEsImlhdCI6MTU5MDQ3NTcxNH0.tPMawr0NrxgM7lzBdjZous4tzkei7PFI4HIbfuZZtvs
+      - name: exhibitionId
+        required: true
+        in: path
+        schema:
+          type: integer
+      - name: meetingUid
+        required: true
+        in: path
+        schema:
+          type: string
     get:
-      tags:
-        - pet
-      summary: Finds Pets by status
-      description: Multiple status values can be provided with comma separated strings
-      operationId: findPetsByStatus
-      parameters:
-        - name: status
-          in: query
-          description: Status values that need to be considered for filter
-          required: true
-          style: form
-          schema:
-            type: array
-            minItems: 1
-            maxItems: 3
-            items:
-              type: string
-              enum:
-                - available
-                - pending
-                - sold
-              default: available
       responses:
         '200':
-          description: successful operation
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/Pet'
-            application/xml:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/Pet'
-        '400':
-          description: Invalid status value
-      security:
-        - Must_auth:
-            - 'write:pets'
-            - 'read:pets'
-  /pet/findByTags:
-    get:
-      tags:
-        - pet
-      summary: Finds Pets by tags
-      description: >-
-        Multiple tags can be provided with comma separated strings. Use tag1,
-        tag2, tag3 for testing.
-      operationId: findPetsByTags
-      deprecated: true
-      parameters:
-        - name: tags
-          in: query
-          description: Tags to filter by
-          required: true
-          style: form
-          schema:
-            type: array
-            items:
-              type: string
-      responses:
-        '200':
-          description: successful operation
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/Pet'
-            application/xml:
-              schema:
-                type: array
-                maxItems: 999
-                items:
-                  maxItems: 111
-                  $ref: '#/components/schemas/Pet'
-        '400':
-          description: Invalid tag value
-      security:
-        - Must_auth:
-            - 'write:pets'
-            - 'read:pets'
-  /store/inventory:
-    get:
-      tags:
-        - store
-      summary: Returns pet inventories by status
-      description: Returns a map of status codes to quantities
-      operationId: getInventory
-      responses:
-        '200':
-          description: successful operation
+          description: Join meeting room
           content:
             application/json:
               schema:
                 type: object
-                additionalProperties:
-                  type: integer
-                  format: int32
-      security:
-        - api_key: []
-  /store/order:
-    post:
+                properties:
+                  meetingUrl:
+                    type: string
       tags:
-        - store
-      summary: Place an order for a pet
-      description: ''
-      operationId: placeOrder
-      responses:
-        '200':
-          description: successful operation
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Order'
-            application/xml:
-              schema:
-                $ref: '#/components/schemas/Order'
-        '400':
-          description: Commande invalide
-          content:
-            application/json:
-              example:
-                status: 400
-                message: "Invalid Order"
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/Order'
-        description: order placed for purchasing the pet
-        required: true
+        - exhibition meeting
+      security:
+        - Must_auth:
+            - 'write:must'
+            - 'read:must'
+  
   '/'  :
     get:
       tags:
@@ -465,182 +225,70 @@ paths:
           description: Invalid ID supplied
         '404':
           description: Order not found
-  /store/subscribe:
-    post:
+  /exhibition/:exhibitionId/meeting/:meetingUid/guest:
+    parameters:
+      - name: x-auth-token
+        required: true
+        in: header
+        schema:
+          type: string
+          example: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOjEsImlhdCI6MTU5MDQ3NTcxNH0.tPMawr0NrxgM7lzBdjZous4tzkei7PFI4HIbfuZZtvs
+      - name: exhibitionId
+        required: true
+        in: path
+        schema:
+          type: integer
+      - name: meetingUid
+        required: true
+        in: path
+        schema:
+          type: string
+    get:
+      responses:
+        '200':
+          description: List of guests of meeting room
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    uid:
+                      type: string
+                      format: uuid
+                    name:
+                      type: string
+                    email:
+                      type: string
+                      format: email
+                    mustUser:
+                      type: boolean
       tags:
-        - store
-      summary: Subscribe to the Store events
-      description: Add subscription for a store events
+        - exhibition meeting
+      security:
+        - ApiKeyAuth: []
+    post:
       requestBody:
+        description: List of meeting rooms
         content:
           application/json:
             schema:
               type: object
               properties:
-                callbackUrl:
+                uid:
                   type: string
-                  format: uri
-                  description: This URL will be called by the server when the desired event will occur
-                  example: https://myserver.com/send/callback/here
-                eventName:
+                  format: uuid
+                email:
                   type: string
-                  description: Event name for the subscription
-                  enum:
-                    - orderInProgress
-                    - orderShipped
-                    - orderDelivered
-                  example: orderInProgress
-              required:
-                - callbackUrl
-                - eventName
+                  format: email
       responses:
-        '201':
-          description: Subscription added
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  subscriptionId:
-                    type: string
-                    example: AAA-123-BBB-456
-      callbacks:
-        orderInProgress:
-          '{$request.body#/callbackUrl}?event={$request.body#/eventName}':
-            servers:
-              - url: //callback-url.path-level/v1
-                description: Path level server 1
-              - url: //callback-url.path-level/v2
-                description: Path level server 2
-            post:
-              summary: Order in Progress (Summary)
-              description: A callback triggered every time an Order is updated status to "inProgress" (Description)
-              externalDocs:
-                description: Find out more
-                url: 'https://more-details.com/demo'
-              requestBody:
-                content:
-                  application/json:
-                    schema:
-                      type: object
-                      properties:
-                        orderId:
-                          type: string
-                          example: '123'
-                        timestamp:
-                          type: string
-                          format: date-time
-                          example: '2018-10-19T16:46:45Z'
-                        status:
-                          type: string
-                          example: 'inProgress'
-                  application/xml:
-                    schema:
-                      type: object
-                      properties:
-                        orderId:
-                          type: string
-                          example: '123'
-                    example: |
-                      <?xml version="1.0" encoding="UTF-8"?>
-                      <root>
-                        <orderId>123</orderId>
-                        <status>inProgress</status>
-                        <timestamp>2018-10-19T16:46:45Z</timestamp>
-                      </root>
-              responses:
-                '200':
-                  description: Callback successfully processed and no retries will be performed
-                  content:
-                    application/json:
-                      schema:
-                        type: object
-                        properties:
-                          someProp:
-                            type: string
-                            example: '123'
-                '299':
-                  description: Response for cancelling subscription
-                '500':
-                  description: Callback processing failed and retries will be performed
-              x-codeSamples:
-                - lang: 'C#'
-                  source: |
-                    PetStore.v1.Pet pet = new PetStore.v1.Pet();
-                    pet.setApiKey("your api key");
-                    pet.petType = PetStore.v1.Pet.TYPE_DOG;
-                    pet.name = "Rex";
-                    // set other fields
-                    PetStoreResponse response = pet.create();
-                    if (response.statusCode == HttpStatusCode.Created)
-                    {
-                      // Successfully created
-                    }
-                    else
-                    {
-                      // Something wrong -- check response for errors
-                      Console.WriteLine(response.getRawResponse());
-                    }
-                - lang: PHP
-                  source: |
-                    $form = new \PetStore\Entities\Pet();
-                    $form->setPetType("Dog");
-                    $form->setName("Rex");
-                    // set other fields
-                    try {
-                        $pet = $client->pets()->create($form);
-                    } catch (UnprocessableEntityException $e) {
-                        var_dump($e->getErrors());
-                    }
-            put:
-              description: Order in Progress (Only Description)
-              servers:
-                - url: //callback-url.operation-level/v1
-                  description: Operation level server 1 (Operation override)
-                - url: //callback-url.operation-level/v2
-                  description: Operation level server 2 (Operation override)
-              requestBody:
-                content:
-                  application/json:
-                    schema:
-                      type: object
-                      properties:
-                        orderId:
-                          type: string
-                          example: '123'
-                        timestamp:
-                          type: string
-                          format: date-time
-                          example: '2018-10-19T16:46:45Z'
-                        status:
-                          type: string
-                          example: 'inProgress'
-                  application/xml:
-                    schema:
-                      type: object
-                      properties:
-                        orderId:
-                          type: string
-                          example: '123'
-                    example: |
-                      <?xml version="1.0" encoding="UTF-8"?>
-                      <root>
-                        <orderId>123</orderId>
-                        <status>inProgress</status>
-                        <timestamp>2018-10-19T16:46:45Z</timestamp>
-                      </root>
-              responses:
-                '200':
-                  description: Callback successfully processed and no retries will be performed
-                  content:
-                    application/json:
-                      schema:
-                        type: object
-                        properties:
-                          someProp:
-                            type: string
-                            example: '123'
-        orderShipped:
+        '200':
+          description: Success
+      tags:
+        - exhibition meeting
+      security:
+        - ApiKeyAuth: []
           '{$request.body#/callbackUrl}?event={$request.body#/eventName}':
             post:
               description: |
@@ -869,6 +517,11 @@ paths:
         default:
           description: successful operation
 components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: x-auth-token
   schemas:
     ApiResponse:
       type: object
